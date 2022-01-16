@@ -1,0 +1,31 @@
+.summer{
+  background-image : url("./assets/summer.jpg");
+  height : 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.winter{
+  background-image : url("./assets/infoweathercold.jpg");
+  height : 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color : #000000;
+}
+
+.weather-data{
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height : 100vh;
+  text-align: center;
+}
+
+.inputData input{
+  width : 300px;
+  padding : 5px;
+  border-radius : 5px;
+  border : none;
+  cursor: pointer;
+}
