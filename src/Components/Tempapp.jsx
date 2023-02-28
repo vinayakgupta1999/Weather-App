@@ -15,7 +15,7 @@ const Tempapp = () => {
     useEffect(() => {
         const delayDebounceFn = setTimeout(() => {
             const fetchApi = async () => {
-                const url = `https://api.openweathermap.org/data/2.5/weather?q=${Search}&units=metric&appid=d3132ed6e3b9895a2e9055e82ef7c7d2`;
+                const url = `https://api.openweathermap.org/data/2.5/weather?q=${Search}&units=metric&appid=f47f6c067edbce9a7f7ef968c7d4f5ba`;
                 const response = await fetch(url);
                 console.log("This is response", response);
                 if(response.status === 200){
